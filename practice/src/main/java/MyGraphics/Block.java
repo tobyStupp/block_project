@@ -14,10 +14,10 @@ import java.awt.Graphics;
  * @author toby
  */
 public class Block {
-    private static int len = 150;
-    private static int wid = 50;
+    private static int wid = 150;
+    private static int len = 50;
 
-    static void setWidth(int width) {
+    public static void setWidth(int width) {
         Block.wid = width; 
     }
     static void setLength (int len){
